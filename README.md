@@ -1,6 +1,6 @@
 # Weather Balloon Telemetry
 
-Development of telemetry, communication, and tracking systems for high-altitude weather balloon experimentation.
+Telemetry and tracking systems for our high-altitude weather balloon experimentation.
 
 <br>
 
