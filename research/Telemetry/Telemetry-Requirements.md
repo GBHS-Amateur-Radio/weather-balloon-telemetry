@@ -19,7 +19,6 @@ information from the balloon payload during flight.
 The telemetry system should:
 
 - transmit useful flight data to the ground
-- record important data onboard when appropriate
+- record important data onboard
 - provide information useful for payload recovery
 - operate throughout the expected flight environment
-- allow received data to be logged for later analysis
