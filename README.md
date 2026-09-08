@@ -32,4 +32,4 @@ Telemetry and tracking systems for our high-altitude weather balloon experimenta
 <br>
 
 ## Status
-Project planning and architecture development.
+Project planning
