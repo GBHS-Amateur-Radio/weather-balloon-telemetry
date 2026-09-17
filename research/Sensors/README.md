@@ -4,13 +4,13 @@ Sensor documentation for data collection at high altitudes.
 
 ## Planned Sensors
 
-### Temperature Sensor
+### 1. Temperature Sensor
 Measures atmospheric temperature throughout the flight.
 
 
-### Pressure Sensor
+### 2. Pressure Sensor
 Measures changes in the atmospheric pressure as the balloon increases in altitude.
 
 
-### Humidity Sensor
+### 3. Humidity Sensor
 Measures relative humidity throughout the flight.
