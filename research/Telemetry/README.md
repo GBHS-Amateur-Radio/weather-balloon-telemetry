@@ -13,5 +13,11 @@ Documentation for the telemetry system we'll use on the weather balloon.
   - Source: [organization/site]
   - Content: [1–2 sentence summary of what this source contributes to our telemetry research]
 
+    <br>
+    
+  - Document: [filename.pdf]
+  - Source: [organization/site]
+  - Content: [1–2 sentence summary of what this source contributes to our telemetry research]
+
 
 ## Possible Telemetry Systems
