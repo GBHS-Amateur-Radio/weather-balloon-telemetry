@@ -7,10 +7,11 @@ Documentation for the telemetry system we'll use on the weather balloon.
   -  High reliability and error correction
   -  Reliable coverage over the expected flight area
 
+ 
 ## Document Overview
-
   - Document: [filename.pdf]
   - Source: [organization/site]
   - Content: [1–2 sentence summary of what this source contributes to our telemetry research]
+
 
 ## Possible Telemetry Systems
