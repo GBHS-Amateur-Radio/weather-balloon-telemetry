@@ -9,15 +9,15 @@ Documentation for the telemetry system we'll use on the weather balloon.
 
  
 ## Document Overview
-  - Document: [filename.pdf]
-  - Source: [organization/site]
-  - Content: [1–2 sentence summary of what this source contributes to our telemetry research]
+  - Document: [highaltitudescience-com-tracking-a-weather-balloon.pdf](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/Telemetry/highaltitudescience-com-tracking-a-weather-balloon.pdf)
+  - Source: https://www.highaltitudescience.com/pages/tracking-a-weather-balloon
+  - Content: Provides an overview of basic telemetry and how it relates to our high altitude weather balloon.
 
     <br>
     
-  - Document: [filename.pdf]
-  - Source: [organization/site]
-  - Content: [1–2 sentence summary of what this source contributes to our telemetry research]
+  - Document: [telemetry-system-example-raspberry-pi.pdf](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/Telemetry/telemetry-system-example-raspberry-pi.pdf)
+  - Source: https://www.rtl-sdr.com/creating-a-high-altitude-balloon-telemetry-system-with-raspberry-pi-rpitx-and-rtl-sdr/
+  - Content: Blog post outlining a telemetry system with guide and components.
 
 
 ## Possible Telemetry Systems
