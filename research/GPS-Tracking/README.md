@@ -13,3 +13,9 @@ GPS system documentation for our high altitude weather balloon.
   - Module: uBLOX MAX-M10M Pico Breakout with Chip Antenna
   - Link: https://store.uputronics.com/products/ublox-max-m10m-pico-breakout-with-chip-antenna
   - Datasheet: [MAX-M10M-00B_DataSheet_UBX-22028884.pdf](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/GPS-Tracking/Datasheets/MAX-M10M-00B_DataSheet_UBX-22028884.pdf)
+
+<br>
+
+  - Module: uBLOX MAX Breakout for Active Antennas
+  - Link: https://store.uputronics.com/products/ublox-max-m8q-breakout-for-active-antennas
+  - Datasheet
