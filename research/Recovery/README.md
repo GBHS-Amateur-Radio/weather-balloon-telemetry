@@ -10,4 +10,8 @@ Recovery documentation for our high altitude weather balloon.
 
 <br>
 
+  - Website: Cambridge University Spaceflight 
+  - Link: https://www.cusf.co.uk/
+  - Content: May provide weather balloon flight guides and subsequent recovery details to consider.
+
 # Overview
