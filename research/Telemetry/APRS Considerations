@@ -1,0 +1,10 @@
+# ARPS Considerations
+We want to send data and probably be able to send things to the HAB, so we need a good transceiver/tracker
+Tracker : https://shop.qrp-labs.com/lightaprs-w
+  - Can report location, altitude, temp, and pressure
+  - Can direct to amateur radio and needs to be powered by either solar panels, super capacitors, or AAA batteries
+  - Data rate of 1 transmission per minute
+  - Open source software
+  - Arduino compatible 
+  - Extendable 
+Extensive Details : https://qrp-labs.com/lightaprs-w
