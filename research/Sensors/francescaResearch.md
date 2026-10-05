@@ -1,70 +1,82 @@
 
  ## Thermistor
- Adafruit 10K Precision Epoxy Thermistor - 3950 NTC
+ **Adafruit 10K Precision Epoxy Thermistor - 3950 NTC**
  
- [website](https://www.adafruit.com/product/372?srsltid=AU7gw4VnNkI3PNdCLb7qaMvomEU1S2Hzd0cGMylpWFV8qbJn_1rmWSBqpPA)
+- [website](https://www.adafruit.com/product/372?srsltid=AU7gw4VnNkI3PNdCLb7qaMvomEU1S2Hzd0cGMylpWFV8qbJn_1rmWSBqpPA)
  [data sheet](https://www.adafruit.com/product/372?srsltid=AU7gw4VnNkI3PNdCLb7qaMvomEU1S2Hzd0cGMylpWFV8qbJn_1rmWSBqpPA)
 
- Measurement range: -55degC - 125degC
+- Measurement range: -55°C - 125°C
 
- Accuracy: The resistance in 25 °C is 10K (+- 1%). The resistance goes down as it gets warmer and goes up as it gets cooler.
+- Accuracy: The resistance at 25 °C is 10K (+- 1%). The resistance goes down as it gets warmer and goes up as it gets cooler.
 
- Power: Dissipation Constant - Approximately 2.0 mW/°C to 5.0 mW/°C Maximum Power Rating - Typically around 45 mW to 50 mW (I had to find this on googleAI because I couldn't find it on the website?)
+- Power: Dissipation Constant - Approximately 2.0 mW/°C to 5.0 mW/°C Maximum; Power Rating - Typically around 45 mW to 50 mW (I had to find this on googleAI because I couldn't find it on the website?)
 
- Operating temp.: -55degC - 125degC
+- Operating temp.: -55°C - 125°C
 
- Price: $4.00 each
+- Price: $4.00 each
 
- On the adafruit website they have a tutorial on how to use this electronic w/ Arduino
+     - On the adafruit website they have a tutorial on how to use this electronic w/ Arduino
+ 
+**TMP36 - Temperature Sensor**
 
- For inside of the box - digital temperature sensors can be used because it doesn't get as cold? Advantageous?
-
-Aaron Price on Instructables [The Ultimate High Altitude Weather Balloon Data Logger](https://www.instructables.com/The-Ultimate-High-Altitude-Weather-Balloon-Data-Lo/) used the [TMP36 - Temperature Sensor](https://www.crcibernetica.com/tmp36-temperature-sensor/) one on the outside and one on the inside
+Aaron Price on Instructables [The Ultimate High Altitude Weather Balloon Data Logger](https://www.instructables.com/The-Ultimate-High-Altitude-Weather-Balloon-Data-Lo/) used this, one on the outside and one on the inside
 
 [datasheet](https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Sensors/Temp/TMP35_36_37.pdf)
+[website](https://www.crcibernetica.com/tmp36-temperature-sensor/)
 
-Measurement range: −40°C to +125°C
+- Measurement range: −40°C to +125°C
 
-Accuracy: ±2°C accuracy
+- Accuracy: ±2°C accuracy
 
-Power: Voltage Input: 2.7 V to 5.5 VDC
+- Power: Voltage Input: 2.7 V to 5.5 VDC
 
-Operating temp.: −40°C to +125°C
+- Operating temp.: −40°C to +125°C
 
-Price: $1.95
+- Price: $1.95
 
 ## Three Sensors in One
-Temperature, humidity, pressure
+**Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor**
 
-This was used by Oklahoma State University students in their [HAB project](https://www.iastatedigitalpress.com/ahac/article/17976/galley/16038/view/)
+- Temperature, humidity, pressure
 
-[Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor - STEMMA QT](https://www.adafruit.com/product/2652?gad_source=1&gad_campaignid=23986111167&gbraid=0AAAAADx9JvRt2OmR7Vv-wJR6BT2xGlrfr&gclid=CjwKCAjww-3VBhAcEiwAwUUIuy6uYw38ZogDRpBD7XNK4MSBwf0Ojrcu5RyWB6-BrnTFGoUtVUwO7hoCK6oQAvD_BwE)
+- This was used by Oklahoma State University students in their [HAB project](https://www.iastatedigitalpress.com/ahac/article/17976/galley/16038/view/)
 
+[website](https://www.adafruit.com/product/2652?gad_source=1&gad_campaignid=23986111167&gbraid=0AAAAADx9JvRt2OmR7Vv-wJR6BT2xGlrfr&gclid=CjwKCAjww-3VBhAcEiwAwUUIuy6uYw38ZogDRpBD7XNK4MSBwf0Ojrcu5RyWB6-BrnTFGoUtVUwO7hoCK6oQAvD_BwE)
 [data sheet](https://cdn-learn.adafruit.com/assets/assets/000/115/588/original/bst-bme280-ds002.pdf?1664822559)
 
-Measurement range: -40-85 degC, 0-100% rel. humidity, 200-1100hPa 
+- Measurement range: -40-85°C, 0-100% rel. humidity, 200-1100hPa 
 
-Accuracy: <img width="1220" height="312" alt="image" src="https://github.com/user-attachments/assets/9c7f67ae-d424-49eb-a2df-c39b156b2e69" />
+- Accuracy: <img width="1220" height="312" alt="image" src="https://github.com/user-attachments/assets/9c7f67ae-d424-49eb-a2df-c39b156b2e69" />
 <img width="1190" height="124" alt="image" src="https://github.com/user-attachments/assets/14151d3c-234a-4048-ad2e-d8dbd5bed9cd" />
 
-Power: <img width="1222" height="174" alt="image" src="https://github.com/user-attachments/assets/94af73eb-d4cf-43f5-ac6e-f96d9f3884fe" />
+- Power: <img width="1222" height="174" alt="image" src="https://github.com/user-attachments/assets/94af73eb-d4cf-43f5-ac6e-f96d9f3884fe" />
 
-Operating temp.: -40-85 degC
+- Operating temp.: -40-85 °C
 
-Price: $14.95
+- Price: $14.95
 
 ## Gyroscope/Acceleraometer 
+**Adafruit LSM6DSO32 6-DoF Accelerometer and Gyroscope - STEMMA QT / Qwiic**
 
-[Adafruit LSM6DSO32 6-DoF Accelerometer and Gyroscope - STEMMA QT / Qwiic](https://www.adafruit.com/product/4692?gad_source=1&gad_campaignid=23986111167&gbraid=0AAAAADx9JvRt2OmR7Vv-wJR6BT2xGlrfr&gclid=CjwKCAjww-3VBhAcEiwAwUUIu8SdTH52Lnudb-l550WjRTsN14uxMrX_aO0w689KhVMC0LxuT8kjNhoC0UkQAvD_BwE )
+[website](https://www.adafruit.com/product/4692?gad_source=1&gad_campaignid=23986111167&gbraid=0AAAAADx9JvRt2OmR7Vv-wJR6BT2xGlrfr&gclid=CjwKCAjww-3VBhAcEiwAwUUIu8SdTH52Lnudb-l550WjRTsN14uxMrX_aO0w689KhVMC0LxuT8kjNhoC0UkQAvD_BwE )
 
-Henry Quach, Mechanical Engineer from Duke (all available information) used this in his weather balloon project as seen [here](https://henryquach.org/balloon.html)
-“This IMU sensor has 6 degrees of freedom - 3 degrees each of linear acceleration and angular velocity at varying rates within a respectable range. For the accelerometer: ±4/±8/±16/±32 g at 1.6 Hz to 6.7KHz update rate. For the gyroscope: ±125/±250/±500/±1000/±2000 dps at 12.5 Hz to 6.7 kHz. There are also some nice extras, such as built-in tap detection, activity detection, pedometer/step counter, and a programmable finite state machine / machine learning core that can perform some basic gesture recognition.” 
+- Henry Quach, Mechanical Engineer from Duke (all available information) used this in his weather balloon project as seen [here](https://henryquach.org/balloon.html)
 
-“To make getting started fast and easy, we placed the sensors on compact breakout boards with voltage regulation and level-shifted inputs. That way you can use them with 3V or 5V power/logic devices without worry.” 
+- The following quotes are from the adafruit website
 
-No data sheet that is just from the website
+    - “This IMU sensor has 6 degrees of freedom - 3 degrees each of linear acceleration and angular velocity at varying rates..."
+  
+    - "For the accelerometer: ±4/±8/±16/±32 g at 1.6 Hz to 6.7KHz update rate."
+ 
+    -  "For the gyroscope: ±125/±250/±500/±1000/±2000 dps at 12.5 Hz to 6.7 kHz."
+  
+    -  "There are also some nice extras, such as built-in tap detection, activity detection, pedometer/step counter, and a programmable finite state machine / machine learning core that can perform some basic gesture recognition.” 
 
-Price: $12.50
+    - "...you can use them with 3V or 5V power/logic devices without worry.” 
+
+- No data sheet to be found
+
+- Price: $12.50
 
 ## Ozonosonde
 
@@ -72,8 +84,25 @@ Quach, from the same page as above, used a [MQ131 Ozone Gas Sensor](https://www.
 
 price is hidden until you give them all your info
 
-no data sheet I could find, just this on website
-<img width="1188" height="1346" alt="image" src="https://github.com/user-attachments/assets/616c4622-41da-4e99-8535-c0551c5d2969" />
+no data sheet I could find, just some specifications on the website
+- detection range - 10-10000ppm (too high?)
+- Loop Voltage 5.0V±0.1V DC
+- Heater Voltage 5.0V±0.1V AC or DC 
+- Heater consumption ≤950mW
+- Sensitivity Rs(in 300ppm O3) / Rs(in air)≥2
+- Output Voltage ≥1.0V (in300ppm O3) 
+
+**EN SCI ECC Ozonesonde**
+[website](https://www.en-sci.com/product/ecc-ozonesonde/)
+- seems like a better, more official option
+- Used by college students from Drexel Univ. on page 73 of this [document](https://drexel.edu/pennoni/~/media/Drexel/Pennoni-Group/Pennoni/Documents/UREP/STAR-Abstracts/2023-Abstract-Booklet.pdf)
+
+- Measurement range: ppb (no range listed?)
+- accuracy: ±5% at 1000, 100, and 10 hPa; ±10% at 4 hPa
+- Operating pressure: 1050–4 hPa
+- Operating temperature: 0–40°C
+- External ambient temperature: −90 °C (it comes with its own insulted box I think)
+- Power: 12–18 VDC, 120 mA
 
 ## Geiger Counter
 
@@ -99,6 +128,15 @@ CPM Ratio: 153.8 CPM/(μSv/h)
 Outline Size: Φ10mm x 88mm
 
 Price: $60.00
+
+## Cameras
+Canon Powershot A1000IS used in this [Instructables](https://www.instructables.com/Barebones-High-Altitude-Balloon-Cam/?utm_source=chatgpt.com)
+
+they had to "hack" it and "put the camera in endless time-lapse mode under its own power, simulating a half-shutter press to focus and then snapping a photo at intervals of a few seconds"
+
+but this one is cheap, about 35$ second hand (find source)
+
+I think the idea of taking a lot of pictures and putting them together as a video is advantageous
 
 ## Misc. Notes
 Radiosonde *radio-sahnd* - group of things that collects data and transports it back to the ground
