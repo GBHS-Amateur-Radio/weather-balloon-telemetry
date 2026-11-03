@@ -20,7 +20,7 @@ The GPS subsystem will determine the position and altitude of the payload during
 
 ## Selected Hardware 
 
-SparkFun SAM-M10Q GPS Breakout
+**Selected Module:** SparkFun SAM-M10Q GPS Breakout
 
 | Requirement | Target | SAM-M10Q Capability | Meets Requirement? |
 |---|---|---|---|
