@@ -1,9 +1,9 @@
 # GPS & Tracking Requirements
-
+<br>
 ## Purpose
 
 The GPS subsystem will determine the position and altitude of the payload during the flight and provide position data.
-
+<br>
 | Requirement | Target | Reason | Source |
 |---|---|---|---|
 | Maximum operating altitude | TBD | Must operate throughout expected balloon flight | TBD |
