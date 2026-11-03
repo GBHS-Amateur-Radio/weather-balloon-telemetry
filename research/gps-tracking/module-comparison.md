@@ -55,4 +55,4 @@ This document compares candidate GPS modules for the weather balloon payload aga
 
 ## References
 
-General GPS research and supporting documents are stored in [`references/`](references/).
+General GPS research and supporting documents are stored in [`references/`](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/tree/main/research/gps-tracking/references).
