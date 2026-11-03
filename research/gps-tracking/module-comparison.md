@@ -76,7 +76,7 @@ This document compares candidate GPS modules for the weather balloon payload aga
 
 **Selected Module:** SparkFun SAM-M10Q GPS Breakout 
 
-**Reasoning:** The SAM-M10Q module has an integrated antenna, an added backup battery and simultaneous reception with four noted GNSS constellations at the expense of increased board size. Although the breakout is larger than the MAX-M10M Pico, prototyping is easier with this board because it is a part of SparkFun's development ecosystem while still meeting the primary requirements of the GPS subsystem.
+**Reasoning:** The SAM-M10Q module has all the capabilities of the uBLOX Pico Breakout and an added back up battery and added communications with four noted GNSS constellations at the expense of increased board size. Along with these added capabilities, prototyping is also easier with this board because it is apart of SparkFun's development ecosystem.
 
 <br>
 
