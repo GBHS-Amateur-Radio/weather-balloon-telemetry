@@ -4,19 +4,6 @@ The GPS & Tracking subsystem is responsible for determining the position and alt
 
 <br>
 
-## Objectives
-
-- Determine payload latitude, longitude, and altitude and track it throughout the flight
-- Provide position data to the telemetry and recovery systems
-
-<br>
-
-## System Concept
-
-`GNSS Satellites → SAM-M10Q → Flight Computer → Telemetry System → Ground Station`
-
-<br>
-
 ## Development
 
 - [x] Initial GPS research
