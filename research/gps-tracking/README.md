@@ -1,22 +1,68 @@
-# GPS Tracking
+# GPS & Tracking
 
-GPS system documentation for our high altitude weather balloon.
-
-## Document Overview
-
-  - Document: GPS-module-guide.pdf
-  - Site: https://ukhas.org.uk/doku.php?id=guides:gps_modules
-  - Content: Discusses GPS modules that can work with our weather balloon. It covers the COCOM limits and identifies GPS modules that can continue operating above 18km (about 60,000 ft), given its not travelling faster than 1000 knots.
-
-## GPS Module List
-
-  - Module: uBLOX MAX-M10M Pico Breakout with Chip Antenna
-  - Link: https://store.uputronics.com/products/ublox-max-m10m-pico-breakout-with-chip-antenna
-  - Datasheet: [MAX-M10M-00B_DataSheet_UBX-22028884.pdf](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/GPS-Tracking/Datasheets/MAX-M10M-00B_DataSheet_UBX-22028884.pdf)
-  - Price: $43.00
+The GPS & Tracking subsystem is responsible for determining the position and altitude of the high-altitude balloon payload throughout flight. Position data will be provided to the telemetry and recovery systems for tracking and recovery.
 
 <br>
 
-  - Module: uBLOX MAX Breakout for Active Antennas
-  - Link: https://store.uputronics.com/products/ublox-max-m8q-breakout-for-active-antennas
-  - Datasheet
+## Objectives
+
+- Determine payload latitude, longitude, and altitude and maintain it throughout the flight
+- Provide position data to the telemetry and recovery systems
+
+<br>
+
+## Current Status
+
+**Phase:** Hardware Selection
+
+Three GPS solutions were evaluated against the requirements of the subsystem. The **SparkFun SAM-M10Q GPS Breakout** was selected for further development.
+
+The SAM-M10Q was selected for its integrated antenna, simultaneous multi-constellation GNSS reception, backup battery, and compatibility with SparkFun's development ecosystem.
+
+<br>
+
+## System Concept
+
+`GNSS Satellites → SAM-M10Q → Flight Computer → Telemetry System → Ground Station`
+
+<br>
+
+## Development
+
+- [x] Initial GPS research
+- [x] Define subsystem requirements
+- [x] Compare candidate GPS modules
+- [x] Select GPS hardware
+- [ ] Design subsystem integration
+- [ ] Develop firmware
+- [ ] Conduct ground testing
+- [ ] Integrate with telemetry system
+- [ ] Conduct flight testing
+
+<br>
+
+## Documentation
+
+- [GPS Requirements](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/gps-tracking/requirements.md)
+- [GPS Module Comparison](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/gps-tracking/module-comparison.md)
+- [System Design](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/gps-tracking/system-design.md)
+- [Datasheets](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/tree/main/research/gps-tracking/datasheets)
+- [References](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/tree/main/research/gps-tracking/references)
+- [Testing](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/tree/main/research/gps-tracking/testing)
+- [Firmware](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/tree/main/research/gps-tracking/firmware)
+
+<br>
+
+## Selected Hardware
+
+**GPS Receiver:** SparkFun SAM-M10Q GPS Breakout
+
+See [GPS Module Comparison](https://github.com/GBHS-Amateur-Radio/weather-balloon-telemetry/blob/main/research/gps-tracking/module-comparison.md) for the hardware evaluation and selection reasoning.
+
+<br>
+
+## Contributors
+
+**GPS & Tracking Team**
+- James
+- Josh
