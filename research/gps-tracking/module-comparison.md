@@ -31,6 +31,23 @@ This document compares candidate GPS modules for the weather balloon payload aga
 **Notes**
 - TBD
 
+<br>
+
+### SparkFun SAM-M10Q GPS Breakout 
+
+**Product:** [SparkFun Product Page](https://www.sparkfun.com/sparkfun-gps-breakout-chip-antenna-sam-m10q-qwiic.html)
+
+**Advantages**
+- TBD
+
+**Disadvantages**
+- TBD
+
+**Notes**
+- TBD
+
+<br>
+
 ### uBLOX MAX-M10S Breakout for Active Antennas
 
 **Product:** [Uputronics Product Page](https://store.uputronics.com/products/ublox-max-m8q-breakout-for-active-antennas?variant=48647586480462).
