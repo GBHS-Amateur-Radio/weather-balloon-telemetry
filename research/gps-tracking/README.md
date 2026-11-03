@@ -11,16 +11,6 @@ The GPS & Tracking subsystem is responsible for determining the position and alt
 
 <br>
 
-## Current Status
-
-**Phase:** Hardware Selection
-
-Three GPS solutions were evaluated against the requirements of the subsystem. The **SparkFun SAM-M10Q GPS Breakout** was selected for further development.
-
-The SAM-M10Q was selected for its integrated antenna, simultaneous multi-constellation GNSS reception, backup battery, and compatibility with SparkFun's development ecosystem.
-
-<br>
-
 ## System Concept
 
 `GNSS Satellites → SAM-M10Q → Flight Computer → Telemetry System → Ground Station`
