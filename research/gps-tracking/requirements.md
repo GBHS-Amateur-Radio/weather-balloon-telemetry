@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The GPS subsystem will determine the position and altitude of the payload during the flight and provide position data to the telemetry and recovery systems
+The GPS subsystem will determine the position and altitude of the payload during the flight and provide that position data to the telemetry and recovery systems.
 
 <br>
 
